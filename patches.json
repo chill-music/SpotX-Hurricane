@@ -308,13 +308,13 @@
                     "background": "#13101C",
                     "maxmatch": "#534D6F"
                 },
-                "brown": {
-                    "pasttext": "#E40909B3",
-                    "current": "#C2C2C2",
-                    "next": "#CA861A",
-                    "hover": "#0FD40F",
+                "relish": {
+                    "pasttext": "#9D2117",
+                    "current": "#C8C8C8",
+                    "next": "#C8A032",
+                    "hover": "#E5CB8B",
                     "background": "#121212",
-                    "maxmatch": "#C2C2C2"
+                    "maxmatch": "#787878"
                 }
             }
         },
@@ -385,6 +385,7 @@
             },
             "add": [
                 " .nav-alt .Root__top-container {background: #00000085;gap: 6px;padding: 8px;}",
+                " .nav-ylx .Root__top-container {background: #00000085;}",
                 " .Root__fixed-top-bar {background-color: #00000000}"
             ]
         },
@@ -701,7 +702,7 @@
         "newhome2": {
             "version": {
                 "from": "1.1.97",
-                "do": ""
+                "do": "1.2.2"
             },
             "match": "(Enable the new home structure and navigation\",values:.,default:.)(.DISABLED)",
             "replace": "$1.ENABLED_CENTER"
